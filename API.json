@@ -1,0 +1,3 @@
+mkdir api && echo "export default function handler(req, res) {
+  res.status(200).json({ message: 'Hello from your custom Vercel API!' });
+}" > api/hello.js
